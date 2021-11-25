@@ -1,0 +1,129 @@
+/**********paleta de colores**************/
+@import "variables";
+
+
+body{
+    background-image: url(/html/img/segunda.jpg);
+    background-size: cover;
+}
+
+/*bem index*/
+.index{
+    margin:2px;
+}
+.index__text{
+    text-align: center;
+}
+
+/*bem albumes de index*/
+
+.albumes__foto{
+        width: 100%;
+}
+.albumes__foto:hover{
+            border: 5px solid white;
+}
+.albumes__icon{
+    width: 100%;;
+}
+.albumes__caja{
+        margin:0px;
+        padding:5px;
+}
+
+
+/*bem galeria*/
+.galeria__caja{
+    margin: 0px;
+    padding: 10px;
+}
+.galeria__foto{
+    width:100%;
+}
+.galeria__foto:hover{
+    border: 5px solid white;
+}
+
+.musica__link{
+    width: 100%;
+}
+
+/*bem contacto*/
+.form{
+    margin:5px;
+}
+.form__foto{
+    width: 400px;
+    margin-left: 100px;;
+}
+
+.form__items:hover{
+    color:$purpura;
+}
+
+/*bem de footer*/
+.pie{
+    background-color: $purpura;
+    
+}
+.pie__redes{
+    color:white;
+}
+
+
+/************************/
+
+.bg-azul{
+    background-color: $azul;
+}
+
+.c-azul{
+    color:$azul;
+}
+
+.bg-violeta{
+    background-color: $violeta;
+}
+
+.c-violeta{
+    color:$violeta;
+}
+
+.bg-purpura{
+    background-color: $purpura;
+}
+
+.c-purpura{
+    color: $purpura;
+}
+
+.bg-rosa{
+    background-color: $rosita;
+}
+
+.c-rosa{
+    color:$rosita;
+}
+
+.bg-pink{
+    background-color: $rosa;
+}
+
+.c-pink{
+    color:$rosa;
+}
+
+.c-blanco{
+    color:white;
+}
+
+.bg-blanco{
+    background-color: white;
+}
+
+
+
+
+
+
+
