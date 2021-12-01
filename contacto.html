@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,7 @@
 
     <!----------------nav------------------->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-violeta border-bottom">
+    <nav class="navbar navbar-expand-lg border-bottom">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/icon.ico-removebg-preview.png" width=60px>
             <img src="img/logo.png" width=200px> </a>
@@ -39,7 +39,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav justify-content-end w-100 p-3 c-blanco">
+                <ul class="navbar-nav justify-content-end w-100 p-3">
 
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Inicio</a>
@@ -58,7 +58,7 @@
                     </li>
 
                     <div class="dropdown">
-                        <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Canales</a>
+                        <a class="nav-link nav-drop" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Canales</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCZkURf9tDolFOeuw_4RD7XQ">Youtube</a>
                             </li>
@@ -90,33 +90,33 @@
 
 <!-------------------- cuerpo de la web ------------------->
     <main class="container form">
-        <section class="row mt-3">
+        <section class="row mt-3 conteiner-fluid">
             <div class="col-12 col-lg-6 mt-2 mb-3">
-                <h2 class="c-purpura" data-aos="zoom-in-down">Unete a nuestra comunidad</h2>
+                <h2 class="c-purpura" data-aos="zoom-in">Unete a nuestra comunidad</h2>
                 <form  class="mt-3">
 
                     <div class="mb-3">
                         <label for="exampleInputName1" class="form-label">Nombre y apellido:</label>
-                        <input type="name" class="form-control form__items" id="exampleInputName1">
+                        <input type="name" class="form-control form__items" id="exampleInputName1" data-aos="zoom-in">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputText1" class="form-label">Pais de residencia:</label>
-                        <input type="text" class="form-control form__items" id="exampleInputText1">
+                        <input type="text" class="form-control form__items" id="exampleInputText1" data-aos="zoom-in">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">E-mail:</label>
-                        <input type="email" class="form-control form__items" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control form__items" id="exampleInputEmail1" aria-describedby="emailHelp" data-aos="zoom-in">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
-                        <input type="password" class="form-control form__items" id="exampleInputPassword1">
+                        <input type="password" class="form-control form__items" id="exampleInputPassword1" data-aos="zoom-in">
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Acepto recibir informacion</label>
                     </div>
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select" aria-label="Default select example" data-aos="zoom-in">
                         <option selected>¿Cual es tu principal metodo de streaming?</option>
                         <option value="1">Spotify</option>
                         <option value="2">Youtube</option>
@@ -147,11 +147,11 @@
                     </div>
                     
                     <button class="btn btn-outline-light mt-3" type="reset" value="Reset">Reset</button>
-                    <button type="submit" class="btn btn-outline-primary mt-3" data-aos="zoom-in-down">Enviar</button>
+                    <button type="submit" class="btn btn-outline-primary mt-3">Enviar</button>
                 </form>
             </div>
-            <div class="col-6 mb-5 mt-5 d-none d-lg-block" data-aos="zoom-in-down">
-                <img src="img/galeria/uno0.jpg" class="form__foto"  alt="Demi 2017 en vivo">
+            <div class="col-6 mb-5 mt-5 d-none d-lg-block" data-aos="zoom-in">
+                <img src="img/200.jpg" class="form__foto"  alt="Demi 2021 photoshoot">
             </div>
         </section>
     </main>
@@ -167,22 +167,21 @@
     <!----------------------footer---------------------->
     <footer class="conteniner-fluid pie">
         <div class="conteiner p-3">
-            <div class="row c-blanco">
+            <div class="row">
                 <div class=" col-6">
                     <img src="img/icon.ico-removebg-preview.png" class="col-1 w-30">
                     
                     <img src="img/logo.png" class="logoFooter m-0 w-50">
                 </div>
 
-
                 <div class="col-6 pie__redes">
                     
                     <div class="col-12 fs-7 d-flex flex-row justify-content-around mt-3">
-                        <a href="https://www.instagram.com/ddlovato/?hl=es-la"> <i class="bi-instagram c-blanco"></i> </a>
-                        <a href="https://www.youtube.com/channel/UCZkURf9tDolFOeuw_4RD7XQ"> <i class="bi-youtube c-blanco"></i> </a>
-                        <a href="https://www.facebook.com/DemiLovato"> <i class="bi-facebook c-blanco"></i> </a>
-                        <a href="https://twitter.com/ddlovato?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class="bi-twitter c-blanco"></i> </a>
-                        <a href="https://www.instagram.com/ddlovato/?hl=es-la"><i class="bi-spotify c-blanco"></i></a>
+                        <a href="https://www.instagram.com/ddlovato/?hl=es-la"> <i class="bi-instagram iconito"></i> </a>
+                        <a href="https://www.youtube.com/channel/UCZkURf9tDolFOeuw_4RD7XQ"> <i class="bi-youtube iconito"></i> </a>
+                        <a href="https://www.facebook.com/DemiLovato"> <i class="bi-facebook iconito"></i> </a>
+                        <a href="https://twitter.com/ddlovato?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class="bi-twitter iconito"></i> </a>
+                        <a href="https://www.instagram.com/ddlovato/?hl=es-la"><i class="bi-spotify iconito"></i></a>
                     </div>
                 </div>
             </div>
@@ -194,16 +193,11 @@
 
 
 
-
-
-
-
-
 <!-------scripts------------>
-<script src="js/bootstrap.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
