@@ -1,0 +1,128 @@
+/**********paleta de colores**************/
+/***paleta de colores***/
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz0zd-OfLzpCqZS6VbsR7PU-tCxr-jnYGf3Q&usqp=CAU);
+  background-size: cover;
+}
+
+/* navbar */
+.navbar {
+  background-color: #D983EB;
+}
+
+.nav-link {
+  color: #414141;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #756CD4;
+  color: black;
+}
+
+.nav-drop:hover {
+  background-color: #756CD4;
+}
+
+.dropdown-item:hover {
+  background-color: #F5C7A6;
+}
+
+/*seccion index*/
+.index {
+  margin: 2px;
+}
+
+.index__text {
+  text-align: center;
+}
+
+.btn {
+  background-color: #F5A7A6;
+}
+
+.btn:hover {
+  background-color: #8CD1FA;
+  color: #000;
+}
+
+/* albumes de index*/
+.albumes__foto {
+  width: 100%;
+  border: 1px solid #756CD4;
+}
+
+.albumes__foto:hover {
+  border: 5px solid white;
+}
+
+.albumes__icon {
+  width: 100%;
+}
+
+.join {
+  padding: 5px;
+}
+
+.albumes__icon:hover {
+  color: white;
+}
+
+.albumes__caja {
+  margin: 0px;
+  padding: 5px;
+}
+
+/*seccion galeria*/
+.galeria__caja {
+  margin: 0px;
+  padding: 10px;
+}
+
+.galeria__foto {
+  width: 100%;
+}
+
+.galeria__foto:hover {
+  border: 5px solid white;
+}
+
+/*seccion musica*/
+.musica__link {
+  width: 100%;
+}
+
+.musica h2 {
+  color: #756CD4;
+}
+
+/*seccion contacto*/
+.form {
+  margin: 5px;
+}
+
+.form__foto {
+  width: 450px;
+  margin-left: 100px;
+}
+
+.form__items:hover {
+  color: #756CD4;
+}
+
+/*footer*/
+.pie {
+  background-color: #756CD4;
+}
+
+.pie__redes {
+  color: white;
+}
+
+.iconito {
+  color: white;
+}
+
+.iconito:hover {
+  color: #F5C7A6;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,123 @@
+/**********paleta de colores**************/
+@import "variables";
+
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz0zd-OfLzpCqZS6VbsR7PU-tCxr-jnYGf3Q&usqp=CAU);
+    background-size: cover;
+}
+
+
+/* navbar */
+.navbar{
+    background-color: $violeta;
+}
+.nav-link{
+    color:$gris;
+}
+.nav-link:hover{
+    border-bottom: 3px solid $purpura;
+    color:black;
+}
+.nav-drop:hover{
+    background-color: $purpura;
+}
+.dropdown-item:hover{
+    background-color: $rosita;
+}
+
+/*seccion index*/
+.index{
+    margin:2px;
+}
+.index__text{
+    text-align: center;
+}
+.btn {
+    background-color: $rosa;
+}
+.btn:hover{
+    background-color: $azul;
+    color: #000;
+}
+
+/* albumes de index*/
+
+.albumes__foto{
+        width: 100%;
+        border: 1px solid $purpura;
+}
+.albumes__foto:hover{
+            border: 5px solid white;
+}
+.albumes__icon{
+    width: 100%;
+}
+.join{
+    padding:5px;
+}
+.albumes__icon:hover{
+    color:white;
+}
+.albumes__caja{
+        margin:0px;
+        padding:5px;
+}
+
+
+/*seccion galeria*/
+
+.galeria__caja{
+    margin: 0px;
+    padding: 10px;
+}
+.galeria__foto{
+    width:100%;
+}
+.galeria__foto:hover{
+    border: 5px solid white;
+}
+
+/*seccion musica*/
+
+.musica__link{
+    width: 100%;
+}
+.musica h2{
+    color:$purpura;
+}
+/*seccion contacto*/
+
+.form{
+    margin:5px;
+}
+.form__foto{
+    width: 450px;
+    margin-left: 100px;;
+}
+
+.form__items:hover{
+    color:$purpura;
+}
+
+/*footer*/
+.pie{
+    background-color: $purpura;
+    
+}
+.pie__redes{
+    color:white;
+}
+.iconito{
+    color:white;
+}
+.iconito:hover{
+    color:$rosita;
+}
+
+
+
+
+
+
+
