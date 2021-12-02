@@ -16,7 +16,7 @@ body {
 
 .nav-link:hover {
   border-bottom: 3px solid #756CD4;
-  color: black;
+  color: white;
 }
 
 .nav-drop:hover {
@@ -25,6 +25,10 @@ body {
 
 .dropdown-item:hover {
   background-color: #F5C7A6;
+}
+
+.hamburguesa:hover {
+  color: #F5C7A6;
 }
 
 /*seccion index*/

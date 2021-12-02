@@ -7,7 +7,6 @@ body{
     background-size: cover;
 }
 
-
 /* navbar */
 .navbar{
     background-color: $violeta;
@@ -17,13 +16,16 @@ body{
 }
 .nav-link:hover{
     border-bottom: 3px solid $purpura;
-    color:black;
+    color:white;
 }
 .nav-drop:hover{
     background-color: $purpura;
 }
 .dropdown-item:hover{
     background-color: $rosita;
+}
+.hamburguesa:hover{
+    color:$rosita;
 }
 
 /*seccion index*/
