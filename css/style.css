@@ -28,7 +28,8 @@ body {
 }
 
 .hamburguesa:hover {
-  color: #F5C7A6;
+  color: #756CD4;
+  border: 1px solid #8CD1FA;
 }
 
 /*seccion index*/
