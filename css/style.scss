@@ -15,7 +15,7 @@ body{
     color:$gris;
 }
 .nav-link:hover{
-    border-bottom: 3px solid $purpura;
+    border-bottom: 2px solid $purpura;
     color:white;
 }
 .nav-drop:hover{
@@ -48,7 +48,7 @@ body{
 
 .albumes__foto{
         width: 100%;
-        border: 1px solid $purpura;
+        border: 1px solid $gris;
 }
 .albumes__foto:hover{
             border: 5px solid white;

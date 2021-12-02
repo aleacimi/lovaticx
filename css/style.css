@@ -15,7 +15,7 @@ body {
 }
 
 .nav-link:hover {
-  border-bottom: 3px solid #756CD4;
+  border-bottom: 2px solid #756CD4;
   color: white;
 }
 
@@ -53,7 +53,7 @@ body {
 /* albumes de index*/
 .albumes__foto {
   width: 100%;
-  border: 1px solid #756CD4;
+  border: 1px solid #414141;
 }
 
 .albumes__foto:hover {
