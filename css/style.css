@@ -1,13 +1,35 @@
 /**********paleta de colores**************/
 /***paleta de colores***/
+/*general*/
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz0zd-OfLzpCqZS6VbsR7PU-tCxr-jnYGf3Q&usqp=CAU);
   background-size: cover;
+  font-family: 'PT Serif', serif;
+}
+
+h1 {
+  font-weight: 200;
+  color: #414141;
+}
+
+h2 {
+  width: 100%;
+  color: #414141;
+  font-weight: 400;
+  margin: 7px 0px;
+}
+
+h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #414141;
+  margin: 5px;
 }
 
 /* navbar */
 .navbar {
-  background-color: #D983EB;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#D983EB), to(#756CD4));
+  background-image: linear-gradient(#D983EB, #756CD4);
 }
 
 .nav-link {
@@ -15,7 +37,7 @@ body {
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid #756CD4;
+  border-bottom: 2px solid #D983EB;
   color: white;
 }
 
@@ -29,10 +51,10 @@ body {
 
 .hamburguesa:hover {
   color: #756CD4;
-  border: 1px solid #8CD1FA;
+  border: 1px solid #67b2dd;
 }
 
-/*seccion index*/
+/*index*/
 .index {
   margin: 2px;
 }
@@ -42,11 +64,13 @@ body {
 }
 
 .btn {
-  background-color: #F5A7A6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F5A7A6), to(#F5C7A6));
+  background-image: linear-gradient(#F5A7A6, #F5C7A6);
 }
 
 .btn:hover {
-  background-color: #8CD1FA;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#67b2dd), to(#D983EB));
+  background-image: linear-gradient(#67b2dd, #D983EB);
   color: #000;
 }
 
@@ -61,24 +85,35 @@ body {
 }
 
 .albumes__foto:hover {
-  border: 5px solid white;
+  border-width: 0.2rem;
+  border-color: #F5A7A6;
+  border-style: outset;
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
 }
 
 .albumes__icon {
   width: 100%;
-}
-
-.join {
-  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 70px;
 }
 
 .albumes__icon:hover {
-  color: white;
+  -webkit-transform: scale(1, 1, 1, 1);
+          transform: scale(1, 1, 1, 1);
+  padding: 40px;
 }
 
 .albumes__caja {
   margin: 0px;
   padding: 5px;
+}
+
+/*hisotria*/
+.story h2 {
+  color: #756CD4;
 }
 
 /*seccion galeria*/
@@ -92,7 +127,11 @@ body {
 }
 
 .galeria__foto:hover {
-  border: 5px solid white;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  border-color: #F5C7A6;
+  border-width: 0.2rem;
+  border-style: outset;
 }
 
 /*seccion musica*/
@@ -100,8 +139,13 @@ body {
   width: 100%;
 }
 
-.musica h2 {
-  color: #756CD4;
+.cuadro {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F5C7A6), to(#F5A7A6));
+  background-image: linear-gradient(#F5C7A6, #F5A7A6);
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  border-radius: 0.5rem;
 }
 
 /*seccion contacto*/
@@ -110,8 +154,8 @@ body {
 }
 
 .form__foto {
-  width: 450px;
-  margin-left: 100px;
+  width: 500px;
+  margin: 10px 0px 5px 70px;
 }
 
 .form__items:hover {
@@ -132,6 +176,11 @@ body {
 }
 
 .iconito:hover {
-  color: #F5C7A6;
+  color: #D983EB;
+}
+
+.d-flex a:hover {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
 }
 /*# sourceMappingURL=style.css.map */

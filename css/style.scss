@@ -1,21 +1,43 @@
 /**********paleta de colores**************/
 @import "variables";
 
-
+/*general*/
 body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz0zd-OfLzpCqZS6VbsR7PU-tCxr-jnYGf3Q&usqp=CAU);
     background-size: cover;
+    font-family: 'PT Serif', serif;
 }
 
+h1{
+    font-weight: 200;
+    color:$gris;
+}
+
+h2{
+    width:100%;
+    color:$gris;
+    font-weight: 400;
+    margin:7px 0px;
+}
+
+h3{
+    width: 100%;
+    font-weight: 500;
+    color:$gris;
+    margin:5px;
+}
+
+
 /* navbar */
+
 .navbar{
-    background-color: $violeta;
+    background-image: linear-gradient( $violeta, $purpura);
 }
 .nav-link{
     color:$gris;
 }
 .nav-link:hover{
-    border-bottom: 2px solid $purpura;
+    border-bottom: 2px solid $violeta;
     color:white;
 }
 .nav-drop:hover{
@@ -29,7 +51,7 @@ body{
     border:1px solid $azul;
 }
 
-/*seccion index*/
+/*index*/
 .index{
     margin:2px;
 }
@@ -37,38 +59,46 @@ body{
     text-align: center;
 }
 .btn {
-    background-color: $rosa;
+    background-image: linear-gradient($rosa, $rosita);
 }
 .btn:hover{
-    background-color: $azul;
-    color: #000;
+    background-image: linear-gradient($azul, $violeta);
+    color: $black;
 }
 .back{
     text-align:center;
 }
+
 /* albumes de index*/
 
 .albumes__foto{
-        width: 100%;
-        border: 1px solid $gris;
+    width: 100%;
+    border: 1px solid $gris;
 }
 .albumes__foto:hover{
-            border: 5px solid white;
+    border-width: 0.2rem;
+    border-color: $rosa;
+    border-style: outset;
+    transform: scale(1.05 , 1.05);
 }
 .albumes__icon{
     width: 100%;
-}
-.join{
-    padding:5px;
+    justify-content: center;
+    padding:70px;
 }
 .albumes__icon:hover{
-    color:white;
+    transform:scale(1,1 , 1,1);
+    padding:40px;
 }
 .albumes__caja{
-        margin:0px;
-        padding:5px;
+    margin:0px;
+    padding:5px;
 }
 
+/*hisotria*/
+.story h2{
+    color:$purpura;
+}
 
 /*seccion galeria*/
 
@@ -78,9 +108,13 @@ body{
 }
 .galeria__foto{
     width:100%;
+
 }
 .galeria__foto:hover{
-    border: 5px solid white;
+    transform:scale(1.10,1.10);
+    border-color: $rosita;
+    border-width: 0.2rem;
+    border-style: outset;
 }
 
 /*seccion musica*/
@@ -88,22 +122,29 @@ body{
 .musica__link{
     width: 100%;
 }
-.musica h2{
-    color:$purpura;
+.cuadro{
+    background-image: linear-gradient($rosita, $rosa);
+    padding:10px;
+    width:30%;
+    text-align: center;
+    border-radius: 0.5rem;
 }
+
 /*seccion contacto*/
 
 .form{
     margin:5px;
 }
 .form__foto{
-    width: 450px;
-    margin-left: 100px;;
+    width: 500px;
+    margin: 10px 0px 5px 70px;
 }
 
 .form__items:hover{
     color:$purpura;
 }
+
+
 
 /*footer*/
 .pie{
@@ -117,7 +158,10 @@ body{
     color:white;
 }
 .iconito:hover{
-    color:$rosita;
+    color:$violeta;
+}
+.d-flex a:hover{
+    transform: scale(2,2);
 }
 
 
