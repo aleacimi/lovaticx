@@ -61,10 +61,12 @@ h3{
 }
 .btn {
     background-image: linear-gradient($rosa, $rosita);
+    color:$gris;
 }
 .btn:hover{
-    background-image: linear-gradient($purpura, $violeta);
+    background-image: linear-gradient($purpura, $rosa);
     color: $black;
+    font-weight: 400;
 }
 .back{
     text-align:center;

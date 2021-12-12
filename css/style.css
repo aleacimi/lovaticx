@@ -68,12 +68,14 @@ h3 {
 .btn {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f5838d), to(#ffe1b4));
   background-image: linear-gradient(#f5838d, #ffe1b4);
+  color: #414141;
 }
 
 .btn:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b366f1), to(#eea0dd));
-  background-image: linear-gradient(#b366f1, #eea0dd);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b366f1), to(#f5838d));
+  background-image: linear-gradient(#b366f1, #f5838d);
   color: #000;
+  font-weight: 400;
 }
 
 .back {
