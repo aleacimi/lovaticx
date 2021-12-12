@@ -31,16 +31,18 @@ h3{
 /* navbar */
 
 .navbar{
-    background-image: linear-gradient( $violeta, $purpura);
+    background-image: linear-gradient($purpura , $azul );
 }
 .nav-link{
     color:$gris;
 }
 .nav-link:hover{
     font-weight: 700;
+    background-image: linear-gradient($purpura,$azul);
+    border-radius: 4px;
 }
 .nav-drop:hover{
-    background-color: $purpura;
+    border-radius: 7px;
 }
 .dropdown-item:hover{
     background-color: $rosita;
@@ -61,7 +63,7 @@ h3{
     background-image: linear-gradient($rosa, $rosita);
 }
 .btn:hover{
-    background-image: linear-gradient($azul, $violeta);
+    background-image: linear-gradient($purpura, $violeta);
     color: $black;
 }
 .back{
@@ -76,7 +78,7 @@ h3{
 }
 .albumes__foto:hover{
     border-width: 0.2rem;
-    border-color: $rosa;
+    border-color: $azul;
     border-style: outset;
     transform: scale(1.05 , 1.05);
 }
@@ -95,8 +97,10 @@ h3{
 }
 
 /*hisotria*/
-.story h2{
-    color:$purpura;
+
+.subtitulo__historia{
+    background-image: linear-gradient($rosita , $rosa);
+    text-align: center;
 }
 
 /*seccion galeria*/
@@ -111,7 +115,7 @@ h3{
 }
 .galeria__foto:hover{
     transform:scale(1.10,1.10);
-    border-color: $rosita;
+    border-color: $rosa;
     border-width: 0.2rem;
     border-style: outset;
 }
@@ -127,27 +131,55 @@ h3{
     width:30%;
     text-align: center;
     border-radius: 0.5rem;
+    display:block;
 }
 
 /*seccion contacto*/
 
 .form{
-    margin:5px;
-}
-.form__foto{
-    width: 500px;
-    margin: 10px 0px 5px 70px;
+    margin-left:5px;
 }
 
 .form__items:hover{
     color:$purpura;
 }
+.subtitulo__cont{
+    background-image: linear-gradient($rosita , $rosa);
+    text-align: center;
+}
+
+
+#grids{
+    display: grid;
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis"
+    "siete ocho nueve";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    width:115%;
+}
+
+.foto__contacto{
+    width: 180px;
+}
+
+
+@each $numero in uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve {
+    .#{$numero} { 
+        grid-area:  
+        #{$numero};
+    }
+}
+
 
 
 
 /*footer*/
 .pie{
-    background-color: $purpura;
+    background-image: linear-gradient( $azul , $purpura);
     
 }
 .pie__redes{
@@ -157,12 +189,22 @@ h3{
     color:white;
 }
 .iconito:hover{
-    color:$violeta;
+    color:$rosa;
 }
 .d-flex a:hover{
     transform: scale(2,2);
 }
 
+
+@media only screen and(max-width:1024px)
+{
+    .form{ 
+        margin:0px;
+    }
+    .galeria__foto:hover{
+        display: none;
+    }
+}
 
 
 
