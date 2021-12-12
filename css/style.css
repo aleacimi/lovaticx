@@ -269,5 +269,8 @@ h3 {
   .galeria__foto:hover {
     display: none;
   }
+  .logoFooter {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
